@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer's Market</title>
+    <link rel="stylesheet" href="sttyles.css">
+    <script>
+        function showText(){
+            const qt = document.getElementById("popupText");
+            if (qt.classList.contains("qu")){
+                qt.classlist.remove("qu")
+            }
+            else {
+                qt.classlist.add("qu")
+            }
+        }
+            
+
+        
+    </script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="images/logo__2_-removebg-preview.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Tools</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="content">
+            <div class="fh"><h1>Farmer's <span>MARKET</span></h1>
+            <p style="background-color: floralwhite; display: inline-block; padding: 5px;">The best products for farmers</p><br></div>
+            <a href="#" class="btn">Read more</a>
+        </div>
+        <div class="image">
+           <img src="/images/Farmer-removebg-preview.png" alt="Click me" onclick="showText()" style="cursor: pointer;">
+           <div class="qt" id="popupText" >Hello! You clicked the image.</div>
+       
+        </div>
+    </section>
+    <br>
+    <div style="width: 50%; font-size: 18px; margin-left: 20px; margin-top: 10px; letter-spacing: 0.5px; ">
+        <p style="font-weight: bold; font-size: 20px; background-color: #289a46; color: white; padding: 5px; display: inline-block; margin-bottom: 10px; font-family: 'Montserrat', sans-serif; letter-spacing: 1px;
+        box-shadow: 0 4px 20px rgba(40, 47, 46, 0.689);">Welcome to "Farmer's Market"</p><br>
+        Buy and sell your Agric produce online (Buyers meet Farmers) – Sell your produce directly to buyers without middlemen and make more money from your farm produce.
+        It’s evident that India has one of the largest agricultural markets around the world, which is why it becomes important to have a service,
+         which can connect the farmers all over the country. This would help them in maximizing their profits by selling their farm produce at a better price by selling locally or where farmer get maximum price. The service is free for now.</div>
+    <p style="display:block;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #289c47;
+    color: #ffee00;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;"><marquee behavior="alternate" direction=""> Product</marquee></p>
+    <slidse class="slids" style="position: absolute;">
+            <div id="prd" style="">
+                <div style="position: relative; height: 130px;  background-image: url(/product/_mixvegetable.png); background-size: 100% 100%; border-radius: 20px;"></div>
+                <div style="font-size: 28px; padding: 10px;">Vegetable</div>
+            </div>
+            <div id="prd">
+                <div style="position: relative; height: 130px;  background-image: url(/product/download-removebg-preview.png); background-size: 100%; border-radius: 20px;"></div>
+                <div style="font-size: 28px; padding: 10px;">Flowers</div>
+            </div>
+            <div id="prd">
+                <div style="position: relative; height: 130px;  background-image: url(/product/fruit.png); background-size: 100% 100%; border-radius: 20px;"></div>
+                <div style="font-size: 28px; padding: 10px;">Fruits</div>
+            </div>
+            <div id="prd">
+                <div style="position: relative; height: 130px;  background-image: url(/product/Indian-Spices.png); background-size: 100% 100%; border-radius: 20px;"></div>
+                <div style="font-size: 28px; padding: 10px;">Species</div>
+            </div>
+            <div id="prd">
+                <div style="position: relative; height: 130px;  background-image: url(/product/seeds.jpg); background-size: 100% 100%; border-radius: 20px;"></div>
+                <div style="font-size: 28px; padding: 10px;">Seeds</div>
+            </div>
+            <div id="prd">
+                <div style="position: relative; height: 130px;  background-image: url(/product/cotton.png); background-size: 100%; border-radius: 20px;"></div>
+                <div style="font-size: 28px; padding: 10px;">Cotton</div>
+            </div>
+            <div id="prd">
+                <div style="position: relative; height: 130px; background-image: url(/product/fertilizer.png); background-size: 100% 100%; border-radius: 20px;"></div>
+                <div style="font-size: 28px; padding: 10px;">Fertilizer</div>
+            </div>
+    </slidse>
+
+    <!-- Image with an onClick event -->
+    
+
+    <!-- Text that will pop up when image is clicked -->
+
+
+
+    <div class="last">
+        <br>
+        
+        <p>&nbsp; &nbsp;Department of Agriculture & Farmers Welfares</p><br>
+        &nbsp;&nbsp;&nbsp;<img src="/images/images.jfif" alt="" style="display: inline-block; height: 50px; border-radius: 50%; margin-left: 3px;">
+        &nbsp;&nbsp;&nbsp;<img src="/images/linkdn.png" alt="" style="display: inline-block; height: 50px; border-radius: 50%;margin-left: 3px">
+        &nbsp;&nbsp;&nbsp;<img src="/images/yt.png" alt="" style="display: inline-block; height: 50px; border-radius: 50%;margin-left: 3px">
+        &nbsp;&nbsp;&nbsp;<img src="/images/fb.png" alt="" style="display: inline-block; height: 50px; border-radius: 50%;margin-left: 3px">
+        &nbsp;&nbsp;&nbsp;<img src="/images/x.png" alt="" style="display: inline-block; height: 50px; border-radius: 50%;margin-left: 3px">
+
+        <div style="position: relative; margin-top: -30px; float: right; display: inline-block;"><pre>
+            <b style="font-size: 30px;">Contact</b>
+            KRISHI MARKET ONLINE
+            #36, Mysore, Karnataka
+            info@krishi-market.com
+            Monday-Friday: 9am to 5pm
+            Saturday Sunday: 10am to 2pm</pre></div>
+        <p style="position:relative; bottom: -55px; "> &nbsp;&nbsp;&nbsp;&copy; 2024 Game Portal. All Rights Reserved.</p>
+    </div>
+</body>
+
+</html>
